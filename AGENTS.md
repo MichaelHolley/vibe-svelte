@@ -12,7 +12,7 @@ Use conventional commit messages like 'feat:', 'fix:', 'chore:', ...
 ## Feedback Loop
 
 Use `package.json` scripts over `pnpx` and `npx` commands.
-Validate your changes with `bun run check`.
+Validate your changes with `pnpm run check`.
 
 
 ## Documentation
