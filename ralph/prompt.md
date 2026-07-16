@@ -38,8 +38,8 @@ Complete the task.
 
 Before committing, run the feedback loops:
 
-- `pnpm run check` to run the tests
-- `pnpm run lint` to run the type checker
+- `pnpm run check`
+- `pnpm run lint`
 
 # COMMIT
 
