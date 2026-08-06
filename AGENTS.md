@@ -8,19 +8,17 @@
 
 Use conventional commit messages like 'feat:', 'fix:', 'chore:', ...
 
-
 ## Feedback Loop
 
 Use `package.json` scripts over `pnpx` and `npx` commands.
 Validate your changes with `pnpm run check`.
-
 
 ## Documentation
 
 - Only add a comment when complexity is genuinely high **and** the naming does not already convey enough information.
 - A comment that restates the function name, parameters, or return type is worthless — delete it. Well-named identifiers are the documentation.
 - Never add a comment just because a function is public or exported.
-- When a comment truly is warranted, prefer explaining *why* over *what*, use JSDoc syntax, and keep it short and concise.
+- When a comment truly is warranted, prefer explaining _why_ over _what_, use JSDoc syntax, and keep it short and concise.
 
 ---
 
