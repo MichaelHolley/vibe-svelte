@@ -21,11 +21,9 @@ updates:
         update-types:
           - 'version-update:semver-major'
     groups:
-      dev-dependencies:
-        dependency-type: 'development'
-        update-types:
-          - 'minor'
-          - 'patch'
+      dependencies:
+        patterns:
+          - '*'
 
   # ---- GitHub Actions ----
   - package-ecosystem: 'github-actions'
