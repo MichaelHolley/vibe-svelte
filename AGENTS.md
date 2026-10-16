@@ -13,6 +13,10 @@ Use conventional commit messages like 'feat:', 'fix:', 'chore:', ...
 Use `package.json` scripts over `pnpx` and `npx` commands.
 Validate your changes with `pnpm run check`.
 
+## Testing
+
+This is a template for vibe projects - you must not write any tests.
+
 ## Documentation
 
 - Only add a comment when complexity is genuinely high **and** the naming does not already convey enough information.
