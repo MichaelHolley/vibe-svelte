@@ -4,6 +4,13 @@
 - TypeScript
 - Tailwindcss
 
+## Validation
+
+Use `zod` for all runtime validation (remote function inputs, form data, env, external API responses).
+
+- Define the schema once; derive the type with `z.infer`.
+- Parse untrusted data at the boundary; pass typed values inward.
+
 ## Git
 
 Use conventional commit messages like 'feat:', 'fix:', 'chore:', ...
