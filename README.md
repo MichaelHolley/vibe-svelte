@@ -1,42 +1,23 @@
-# sv
+# vibe-svelte
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A minimal SvelteKit template for vibe-coded projects. It is set up so that AI coding agents have guardrails, docs and a fast feedback loop from the first prompt.
 
-## Creating a project
+## Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [SvelteKit](https://svelte.dev/docs/kit) with Svelte 5 runes, [remote functions](https://svelte.dev/docs/kit/remote-functions) and async Svelte enabled
+- TypeScript
+- [Tailwind CSS](https://tailwindcss.com) v4
+- [Zod](https://zod.dev) for all runtime validation
+- ESLint and Prettier
+- pnpm
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Getting started
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-pnpm dlx sv@0.16.3 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:none" sveltekit-adapter="adapter:auto" mcp="ide:claude-code+setup:remote" experimental="versions:kit+features:async,remoteFunctions,explicitEnvironmentVariables,handleRenderingErrors" --install pnpm vibe-svelte
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Use this repository as a template (or clone it), then:
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm install
+pnpm dev
 ```
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Use `pnpm dev --open` to open the app in a new browser tab.
